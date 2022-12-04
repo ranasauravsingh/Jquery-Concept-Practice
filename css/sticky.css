@@ -1,0 +1,46 @@
+.stwrapper {
+	display: flex;
+	justify-content: center;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.stcontainer {
+	min-height: 50rem;
+	flex: 1;
+	margin: 0.3rem;
+	border: 1px solid grey;
+}
+
+.filler {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	margin: 10px;
+	height: 95vh;
+	color: #d2d2d2;
+	border: 2px dashed #ffc4c4;
+}
+
+.block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	height: 8rem;
+	margin: 10px;
+	border: 2px dotted #afafaf;
+}
+
+.block.js-sticky-widget {
+	background: #f0f0f0;
+}
+
+.block.is-big {
+	height: 10rem;
+}
+
+.block.is-small {
+	height: 6rem;
+}
